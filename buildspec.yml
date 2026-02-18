@@ -20,7 +20,7 @@ phases:
      - echo pushing in to docker ECR...
      - docker push 851725435946.dkr.ecr.ap-south-1.amazonaws.com/aita:latest 
      - echo Writing image definition file..
-     - printf '[{"name":"%s","imageUri":"%s"}]' "aita" "851725435946.dkr.ecr.ap-south-1.amazonaws.com/aita" > imagedefinitions.json
+     - printf '[{"name":"%s","imageUri":"%s"}]' "aita-cluster" "851725435946.dkr.ecr.ap-south-1.amazonaws.com/aita" > imagedefinitions.json
 
 
 artifacts:
